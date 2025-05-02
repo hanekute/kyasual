@@ -1,0 +1,24 @@
+\frametitle{Features3: simplebox}
+\begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{lstlisting}[language=TeX]
+\begin{simplebox}
+    simple box
+\end{simplebox}
+
+\begin{simplebox}
+    beamercolorboxで適宜設定してもらうことは\\
+    あんまり想定していない．
+\end{simplebox}
+            \end{lstlisting}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{simplebox}
+                simple box
+            \end{simplebox}
+            \begin{simplebox}
+                beamercolorboxで適宜設定してもらうことは\\
+                あんまり想定していない．
+            \end{simplebox}
+        \end{column}
+    \end{columns}

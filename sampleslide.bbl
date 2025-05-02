@@ -1,0 +1,92 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{bib1}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=bc31a6d8c3b86806b179364abda6c6fe}{%
+           family={bib1author},
+           familyi={b\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f14963db2add22871e41e41e0cad673d}{%
+           family={bib1editor},
+           familyi={b\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {bib1publisher}%
+      }
+      \strng{namehash}{bc31a6d8c3b86806b179364abda6c6fe}
+      \strng{fullhash}{bc31a6d8c3b86806b179364abda6c6fe}
+      \strng{bibnamehash}{bc31a6d8c3b86806b179364abda6c6fe}
+      \strng{authorbibnamehash}{bc31a6d8c3b86806b179364abda6c6fe}
+      \strng{authornamehash}{bc31a6d8c3b86806b179364abda6c6fe}
+      \strng{authorfullhash}{bc31a6d8c3b86806b179364abda6c6fe}
+      \strng{editorbibnamehash}{f14963db2add22871e41e41e0cad673d}
+      \strng{editornamehash}{f14963db2add22871e41e41e0cad673d}
+      \strng{editorfullhash}{f14963db2add22871e41e41e0cad673d}
+      \field{sortinit}{b}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{bib1booktitle}
+      \field{title}{bib1title}
+      \field{year}{1995}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+    \endentry
+    \entry{bib2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5d1e82716664733de03d0bc215648a22}{%
+           family={太郎},
+           familyi={太\bibinitperiod},
+           given={bib2},
+           giveni={b\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d1e82716664733de03d0bc215648a22}
+      \strng{fullhash}{5d1e82716664733de03d0bc215648a22}
+      \strng{bibnamehash}{5d1e82716664733de03d0bc215648a22}
+      \strng{authorbibnamehash}{5d1e82716664733de03d0bc215648a22}
+      \strng{authornamehash}{5d1e82716664733de03d0bc215648a22}
+      \strng{authorfullhash}{5d1e82716664733de03d0bc215648a22}
+      \field{sortinit}{太}
+      \field{sortinithash}{081bf87b63d27ab585f3f0eac470fbbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0039470}
+      \field{journaltitle}{bib2journal}
+      \field{note}{Publisher: bib2publisher}
+      \field{number}{1}
+      \field{title}{bib2title}
+      \field{volume}{20}
+      \field{year}{2010}
+      \field{pages}{12\bibrangedash 22}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://bib2/bib/1520572357169896192
+      \endverb
+      \verb{url}
+      \verb https://bib2/bib/1520572357169896192
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
